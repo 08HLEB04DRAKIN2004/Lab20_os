@@ -17,7 +17,7 @@ namespace ConsoleApp1.Tests
 
             double actualMax = Program.Max(a, b, c);
 
-            Assert.AreEqual(expectedMax, actualMax, "Максимальное значение неверно");
+            Assert.AreEqual(expectedMax, actualMax, "ДљЕ•Д™Е„ДЌД›Е•Г«ГјГ­Г®Дє Г§Г­Е•Г·ДєГ­ДЌДє Г­ДєГўДєД‘Г­Г®");
         }
 
         [TestMethod()]
@@ -30,7 +30,7 @@ namespace ConsoleApp1.Tests
 
             double actualMin = Program.Min(a, b, c);
 
-            Assert.AreEqual(expectedMin, actualMin, "Минимальное значение неверно");
+            Assert.AreEqual(expectedMin, actualMin, "ДљДЌГ­ДЌД›Е•Г«ГјГ­Г®Дє Г§Г­Е•Г·ДєГ­ДЌДє Г­ДєГўДєД‘Г­Г®");
         }
 
         [TestMethod()]
@@ -43,20 +43,20 @@ namespace ConsoleApp1.Tests
 
             double actualMax = Program.Max(a, b, c);
 
-            Assert.AreEqual(expectedMax, actualMax, "Максимальное значение неверно");
+            Assert.AreEqual(expectedMax, actualMax, "ДљЕ•Д™Е„ДЌД›Е•Г«ГјГ­Г®Дє Г§Г­Е•Г·ДєГ­ДЌДє Г­ДєГўДєД‘Г­Г®");
         }
 
         [TestMethod()]
         public void MinTest_NegativeNumbers()
         {
-            double a = 0.001;
+            double a = 0.1;
             double b = 0.2;
             double c = 0.3;
             double expectedMin = 0.0001;
 
             double actualMin = Program.Min(a, b, c);
 
-            Assert.AreEqual(expectedMin, actualMin, "Минимальное значение неверно");
+            Assert.AreEqual(expectedMin, actualMin, "ДљДЌГ­ДЌД›Е•Г«ГјГ­Г®Дє Г§Г­Е•Г·ДєГ­ДЌДє Г­ДєГўДєД‘Г­Г®");
         }
 
         [TestMethod()]
@@ -69,7 +69,7 @@ namespace ConsoleApp1.Tests
 
             double actualMax = Program.Max(a, b, c);
 
-            Assert.AreEqual(expectedMax, actualMax, "Максимальное значение неверно");
+            Assert.AreEqual(expectedMax, actualMax, "ДљЕ•Д™Е„ДЌД›Е•Г«ГјГ­Г®Дє Г§Г­Е•Г·ДєГ­ДЌДє Г­ДєГўДєД‘Г­Г®");
         }
 
         [TestMethod()]
@@ -82,7 +82,7 @@ namespace ConsoleApp1.Tests
 
             double actualMin = Program.Min(a, b, c);
 
-            Assert.AreEqual(expectedMin, actualMin, "Минимальное значение неверно");
+            Assert.AreEqual(expectedMin, actualMin, "ДљДЌГ­ДЌД›Е•Г«ГјГ­Г®Дє Г§Г­Е•Г·ДєГ­ДЌДє Г­ДєГўДєД‘Г­Г®");
         }
 
         [TestMethod()]
@@ -95,7 +95,7 @@ namespace ConsoleApp1.Tests
 
             double actualMax = Program.Max(a, b, c);
 
-            Assert.AreEqual(expectedMax, actualMax, "Максимальное значение неверно");
+            Assert.AreEqual(expectedMax, actualMax, "ДљЕ•Д™Е„ДЌД›Е•Г«ГјГ­Г®Дє Г§Г­Е•Г·ДєГ­ДЌДє Г­ДєГўДєД‘Г­Г®");
         }
 
         [TestMethod()]
@@ -108,7 +108,7 @@ namespace ConsoleApp1.Tests
 
             double actualMin = Program.Min(a, b, c);
 
-            Assert.AreEqual(expectedMin, actualMin, "Минимальное значение неверно");
+            Assert.AreEqual(expectedMin, actualMin, "ДљДЌГ­ДЌД›Е•Г«ГјГ­Г®Дє Г§Г­Е•Г·ДєГ­ДЌДє Г­ДєГўДєД‘Г­Г®");
         }
 
         [TestMethod()]
@@ -121,7 +121,7 @@ namespace ConsoleApp1.Tests
 
             double actualMax = Program.Max(a, b, c);
 
-            Assert.AreEqual(expectedMax, actualMax, "Максимальное значение неверно");
+            Assert.AreEqual(expectedMax, actualMax, "ДљЕ•Д™Е„ДЌД›Е•Г«ГјГ­Г®Дє Г§Г­Е•Г·ДєГ­ДЌДє Г­ДєГўДєД‘Г­Г®");
         }
 
         [TestMethod()]
@@ -134,7 +134,7 @@ namespace ConsoleApp1.Tests
 
             double actualMin = Program.Min(a, b, c);
 
-            Assert.AreEqual(expectedMin, actualMin, "Минимальное значение неверно");
+            Assert.AreEqual(expectedMin, actualMin, "ДљДЌГ­ДЌД›Е•Г«ГјГ­Г®Дє Г§Г­Е•Г·ДєГ­ДЌДє Г­ДєГўДєД‘Г­Г®");
         }
     }
 }
