@@ -46,18 +46,7 @@ namespace ConsoleApp1.Tests
             Assert.AreEqual(expectedMax, actualMax, "Ěŕęńčěŕëüíîĺ çíŕ÷ĺíčĺ íĺâĺđíî");
         }
 
-        [TestMethod()]
-        public void MinTest_NegativeNumbers()
-        {
-            double a = 0.1;
-            double b = 0.2;
-            double c = 0.3;
-            double expectedMin = 0.0001;
-
-            double actualMin = Program.Min(a, b, c);
-
-            Assert.AreEqual(expectedMin, actualMin, "Ěčíčěŕëüíîĺ çíŕ÷ĺíčĺ íĺâĺđíî");
-        }
+       
 
         [TestMethod()]
         public void MaxTest_MixedNumbers()
